@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="timeDurationModule">
+<head>
+    <meta charset="UTF-8">
+    <title>timeDuration</title>
+</head>
+<body ng-controller="SomeController">
+<h3>My Super App {{email_notify_pref}} seconds</h3>
+How often should we email you?
+<time-duration ng-model="email_notify_pref"></time-duration>
+<script src="../../node_modules/angular/angular.js"></script>
+<script src="timeDuration.js"></script>
+</body>
+</html>
